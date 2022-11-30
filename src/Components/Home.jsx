@@ -6,17 +6,20 @@ import { SiInstagram } from "react-icons/si";
 
 export default function Home() {
   return (
-    <div>
-      <a href="https://linkedin.com" target="_blank">
+    <div className="Homi">
+      <a classname="Link" href="https://linkedin.com" target="_blank">
         <ImLinkedin />
       </a>
-      <a href="https://facebook.com" target="_blank">
+      <br />
+      <a className="face" href="https://facebook.com" target="_blank">
         <GrFacebook />
       </a>
-      <a href="https://github.com" target="_blank">
+      <br />
+      <a className="Git" href="https://github.com" target="_blank">
         <BsGithub />
       </a>
-      <a href="https://instagram.com" target="_blank">
+      <br />
+      <a className="Insta" href="https://instagram.com" target="_blank">
         <SiInstagram />
       </a>
     </div>
