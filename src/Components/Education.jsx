@@ -1,4 +1,3 @@
-import { BsBorder } from "react-icons/bs";
 import "../App.css";
 
 export default function Education() {
