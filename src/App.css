@@ -1,12 +1,13 @@
 .App {
+  align-content: row;
   text-align: center;
-  background-color: #1f1f38;
-  color: rgb(14, 14, 14);
-  background-image: url(../src/image1.jpg);
+  background-color: #8a8ab8;
+  color: rgb(249, 238, 238);
+  background-image: url(../src/image3.jpg);
+  font-size: 10px;
 }
 
 .App-header {
-  background-color: #839ed4;
   min-height: 100vh;
   flex-direction: column;
   display: flex;
@@ -29,7 +30,8 @@ h5 {
   font-weight: 600;
 }
 h1 {
-  font-size: 4.5rem;
+  font-size: 2.5rem;
+  margin: 0.5rem;
 }
 section {
   margin-top: 6rem;
@@ -46,11 +48,13 @@ section > h2 {
   margin-bottom: 3rem;
 }
 a {
-  color: rgb(35, 31, 31);
+  color: rgb(219, 214, 214);
+  display: row;
   transition: all 400ms ease;
 }
 a:hover {
-  color: rgb(193, 9, 28);
+  color: rgb(78, 6, 247);
+  background-color: white;
 }
 
 .btn {
@@ -77,14 +81,16 @@ a:hover {
 .Pic {
   display: flex;
   justify-content: center;
-  border-radius: 30%;
+  border-radius: 80%;
 }
 
 .Homi {
-  display: flex;
+  display: flex-start;
   justify-content: space-around;
-  font-size: 150%;
-  align-items: column;
+  font-size: 200%;
+  align-items: row;
+  color: rgb(251, 244, 244);
+  background-color: rgb(39, 152, 197);
 }
 
 .column {
