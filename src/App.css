@@ -64,12 +64,14 @@ a:hover {
   transition: all 400ms ease;
   background-color: #1f1f38;
   font-size: 15px;
+  gap: 2rem;
 }
 
 .btn:hover {
   background-color: rgb(147, 24, 24);
   color: rgb(234, 183, 183);
   border-color: transparent;
+  gap: 2rem;
 }
 
 .Pic {
