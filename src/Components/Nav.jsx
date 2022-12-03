@@ -2,11 +2,13 @@ import "../App.css";
 import { useState } from "react";
 import { SiHomeassistant } from "react-icons/si";
 import { ImUser } from "react-icons/im";
+import { BiBookReader } from "react-icons/bi";
 
 export default function Nav() {
   const [activeNav, setActiveNav] = useState("#");
   return (
     <nav>
+      {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
       <a
         href="#"
         onclick={() => setActiveNav("#")}
@@ -21,9 +23,13 @@ export default function Nav() {
       >
         <ImUser />
       </a>
-      < href="Experience"
+      <a
+        href="Experience"
         onclick={() => setActiveNav("#")}
-        className={activeNav === "#" ? "active" : ""}>
+        className={activeNav === "#" ? "active" : ""}
+      >
+        <BiBookReader />
+      </a>
     </nav>
   );
 }
