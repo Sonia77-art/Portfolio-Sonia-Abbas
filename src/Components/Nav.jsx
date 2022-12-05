@@ -11,21 +11,21 @@ export default function Nav() {
       {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
       <a
         href="#social"
-        onclick={() => setActiveNav("#")}
+        onclick={() => setActiveNav("Social")}
         className={activeNav === "#" ? "active" : ""}
       >
         <SiHomeassistant />
       </a>
       <a
-        href="about"
-        onclick={() => setActiveNav("about")}
+        href="#Education"
+        onclick={() => setActiveNav("Education")}
         className={activeNav === "#" ? "active" : ""}
       >
         <ImUser />
       </a>
       <a
-        href="Experience"
-        onclick={() => setActiveNav("#")}
+        href="#Projects"
+        onclick={() => setActiveNav("Projects")}
         className={activeNav === "#" ? "active" : ""}
       >
         <BiBookReader />

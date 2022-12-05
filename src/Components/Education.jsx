@@ -2,18 +2,18 @@ import "../App.css";
 
 export default function Education() {
   return (
-    <div className="Column-1">
-      <h2>Education</h2>
+    <div id="Education">
+      <h1>Education</h1>
       <ul>
         <li>
           The Shortcut Sparks Academy
           <br />
-          Full Stack Web Development
+          Graduated as Full Stack Web Developer
         </li>
         <li>
-          Masters Of Science
+          University of Eastern Finalnd
           <br />
-          As Research Chemist
+          Graduated As Masters of Research Chemist
         </li>
       </ul>
     </div>

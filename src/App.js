@@ -1,6 +1,7 @@
 import "./App.css";
 import Buttons from "./Components/Buttons.jsx";
 import Image from "./Components/Picture.jsx";
+import Projects from "./Components/Projects.jsx";
 
 // import Header from "./Components/Header.jsx";
 import Home from "./Components/Home.jsx";
@@ -23,12 +24,13 @@ function App() {
         <br />
         <Nav />
         <br />
-        <Education />
-        <br />
-        <Social />
-        <br />
-        <br />
 
+        <br />
+        <div id="flex">
+          <Social />
+          <Education />
+          <Projects />
+        </div>
         <br />
       </header>
     </div>

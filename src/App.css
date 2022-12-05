@@ -17,7 +17,7 @@
 }
 a:hover {
   color: rgb(246, 245, 249);
-  background-color: rgb(201, 225, 97);
+  background-color: rgb(13, 132, 179);
 }
 
 .btn {
@@ -29,13 +29,13 @@ a:hover {
   cursor: pointer;
   /* border: 1px solid; */
   transition: all 400ms ease;
-  background-color: #1f1f38;
+  background-color: #0e0ed8;
   font-size: 12px;
   gap: 2rem;
 }
 
 .btn:hover {
-  background-color: rgb(147, 24, 24);
+  /* background-color: rgb(246, 242, 242); */
   color: rgb(234, 183, 183);
   border-color: transparent;
 }
@@ -53,10 +53,10 @@ a:hover {
   font-size: 12px;
 }
 
-.Pic {
+.image {
   display: flex;
-  justify-content: center;
-  border-radius: 150%;
+  justify-content: flex-start;
+  border-radius: 200%;
 }
 
 .Homi {
@@ -75,5 +75,31 @@ a:hover {
   border: 1px solid white;
 }
 .Social {
-  font-size: 30px;
+  margin: 50px;
+  padding: 5px 400px 0 400px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 50px;
+  gap: 2rem;
+}
+#flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#social {
+  border: 1px solid white;
+  width: 300px;
+  height: 400px;
+}
+#Education {
+  border: 1px solid white;
+  width: 300px;
+  height: 400px;
+}
+#Projects {
+  border: 1px solid white;
+  width: 300px;
+  height: 400px;
 }
