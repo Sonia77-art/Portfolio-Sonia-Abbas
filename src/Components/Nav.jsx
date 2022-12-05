@@ -7,10 +7,10 @@ import { BiBookReader } from "react-icons/bi";
 export default function Nav() {
   const [activeNav, setActiveNav] = useState("#");
   return (
-    <nav>
+    <nav className="Social">
       {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
       <a
-        href="#"
+        href="#social"
         onclick={() => setActiveNav("#")}
         className={activeNav === "#" ? "active" : ""}
       >
