@@ -1,8 +1,8 @@
 import "../App.css";
 import { useState } from "react";
-import { SiHomeassistant } from "react-icons/si";
-import { ImUser } from "react-icons/im";
-import { BiBookReader } from "react-icons/bi";
+// import { SiHomeassistant } from "react-icons/si";
+// import { ImUser } from "react-icons/im";
+// import { BiBookReader } from "react-icons/bi";
 
 export default function Nav() {
   const [activeNav, setActiveNav] = useState("#");
@@ -14,21 +14,21 @@ export default function Nav() {
         onclick={() => setActiveNav("Social")}
         className={activeNav === "#" ? "active" : ""}
       >
-        <SiHomeassistant />
+        {/* <SiHomeassistant /> */}
       </a>
       <a
         href="#Education"
         onclick={() => setActiveNav("Education")}
         className={activeNav === "#" ? "active" : ""}
       >
-        <ImUser />
+        {/* <ImUser /> */}
       </a>
       <a
         href="#Projects"
         onclick={() => setActiveNav("Projects")}
         className={activeNav === "#" ? "active" : ""}
       >
-        <BiBookReader />
+        {/* <BiBookReader /> */}
       </a>
     </nav>
   );

@@ -1,18 +1,19 @@
 import "../App.css";
+import { ImUser } from "react-icons/im";
 
 export default function Education() {
   return (
     <div id="Education">
-      <h1>Education</h1>
+      <h1>
+        Education <ImUser />
+      </h1>
       <ul>
         <li>
-          The Shortcut Sparks Academy
-          <br />
+          <h3>The Shortcut Sparks Academy</h3>
           Graduated as Full Stack Web Developer
         </li>
         <li>
-          University of Eastern Finalnd
-          <br />
+          <h3>University of Eastern Finalnd</h3>
           Graduated As Masters of Research Chemist
         </li>
       </ul>

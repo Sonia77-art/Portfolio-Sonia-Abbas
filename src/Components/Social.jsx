@@ -1,8 +1,11 @@
+import { SiHomeassistant } from "react-icons/si";
 export default function Social() {
   return (
     <div id="social">
       <div className="container">
-        <h1>About</h1>
+        <h1>
+          About <SiHomeassistant />
+        </h1>
         <p>
           I am keen learner, dedicated and self-Motivated person with good
           communication and interpersonal skills. As full stack Web developer my

@@ -1,7 +1,7 @@
 .App {
   align-items: center;
 
-  font-size: 15px;
+  font-size: 12px;
   color: white;
 }
 
@@ -12,10 +12,19 @@
   font-size: calc(15px + 6vmin);
 }
 .First {
-  margin-top: 5px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  font-family: "Courier New", Courier, monospace;
 }
 .second {
   margin: 1%;
+  padding: 5px;
+  font-family: "Courier New", Courier, monospace;
+}
+.Third {
+  margin-top: 1px;
+  margin-bottom: 3px;
+  font-family: "Courier New", Courier, monospace;
 }
 .Headings {
   display: flex;
@@ -50,6 +59,7 @@ a:hover {
   background-color: rgb(184, 111, 68);
   color: rgb(234, 183, 183);
   border-color: transparent;
+  gap: 1px;
 }
 
 .btn-2 {
@@ -70,10 +80,13 @@ a:hover {
   align-content: center;
 }
 
-.Pic {
+#Image {
   display: flex;
-  justify-content: center;
-  border-radius: 45px;
+  flex-direction: column;
+  align-content: left;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: 200%;
 }
 
 .Homi {
@@ -83,8 +96,6 @@ a:hover {
   margin-top: 20px;
   font-size: 150%;
   align-items: right;
-  color: rgb(251, 244, 244);
-  /* background-color: rgb(39, 152, 197); */
 }
 
 .social {
@@ -93,6 +104,7 @@ a:hover {
   display: flex;
   justify-content: space-around;
   font-size: 300px;
+  font-family: "Courier New", Courier, monospace;
 }
 #flex {
   display: flex;
@@ -104,18 +116,33 @@ a:hover {
   border: 1px solid white;
   width: 300px;
   height: 400px;
-  font-size: 20px;
-  font-family: poppins, sans-serif;
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(22, 163, 210);
+  border-radius: 30px;
+  color: black;
+  padding: 10px;
 }
 #Education {
   border: 1px solid white;
   width: 300px;
   height: 400px;
+  font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(22, 163, 210);
+  border-radius: 30px;
+  color: black;
+  padding: 10px;
 }
 #Projects {
   border: 1px solid white;
   width: 300px;
   height: 400px;
-  font-size: 20px;
   align-items: left;
+  font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(22, 163, 210);
+  border-radius: 30px;
+  color: black;
+  padding: 10px;
 }
