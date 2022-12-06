@@ -1,20 +1,30 @@
 .App {
-  text-align: center;
-  /* background-image: url(../src/image3.jpg); */
+  align-items: center;
+
   font-size: 15px;
   color: white;
 }
 
 .App-header {
   min-height: 100vh;
-  flex-direction: column;
-  display: flex;
-  align-items: right;
-  justify-content: right;
+
   background-image: url(../src/image3.jpg);
   font-size: calc(15px + 6vmin);
-  /* color: #cacade; */
 }
+.First {
+  margin-top: 5px;
+}
+.second {
+  margin: 1%;
+}
+.Headings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  font-size: 25px;
+}
+
 a:hover {
   color: rgb(246, 245, 249);
   background-color: rgb(13, 132, 179);
@@ -23,19 +33,21 @@ a:hover {
 .btn {
   width: max-content;
   display: inline-block;
-  /* color: rgb(254, 251, 251); */
+  color: rgb(254, 251, 251);
+  align-items: center;
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
-  /* border: 1px solid; */
+  border: 1px solid;
   transition: all 400ms ease;
-  background-color: #0e0ed8;
+  background-color: #7fe9de;
   font-size: 12px;
+  align-content: center;
   gap: 2rem;
 }
 
 .btn:hover {
-  /* background-color: rgb(246, 242, 242); */
+  background-color: rgb(246, 242, 242);
   color: rgb(234, 183, 183);
   border-color: transparent;
 }
@@ -43,44 +55,44 @@ a:hover {
 .btn-2 {
   width: max-content;
   display: inline-block;
-  /* color: rgb(254, 251, 251); */
+  color: rgb(254, 251, 251);
   padding: 0.75rem 1.2rem;
-  border-radius: 0.4rem;
+  border-radius: 1.4rem;
   cursor: pointer;
-  /* border: 1px solid; */
+  border: 1px solid;
   transition: all 400ms ease;
-  background-color: #111181;
+  background-color: #8989d8;
   font-size: 12px;
+  align-items: center;
 }
 
-.image {
+.Buttons {
+  align-content: center;
+}
+
+.Pic {
   display: flex;
-  justify-content: flex-start;
-  border-radius: 200%;
+  justify-content: center;
+  border-radius: 45px;
 }
 
 .Homi {
   display: flex;
   justify-content: space-around;
-  padding: 5px 300px 0 300px;
-  font-size: 300%;
-  align-items: center;
+  padding: 5px 400px 0 400px;
+  margin-top: 20px;
+  font-size: 150%;
+  align-items: right;
   color: rgb(251, 244, 244);
-  background-color: rgb(39, 152, 197);
+  /* background-color: rgb(39, 152, 197); */
 }
 
-.column {
-  float: left;
-  width: 33.33%;
-  border: 1px solid white;
-}
-.Social {
+.social {
   margin: 50px;
   padding: 5px 400px 0 400px;
   display: flex;
   justify-content: space-around;
-  font-size: 50px;
-  gap: 2rem;
+  font-size: 300px;
 }
 #flex {
   display: flex;
@@ -92,6 +104,8 @@ a:hover {
   border: 1px solid white;
   width: 300px;
   height: 400px;
+  font-size: 20px;
+  font-family: poppins, sans-serif;
 }
 #Education {
   border: 1px solid white;
@@ -102,4 +116,6 @@ a:hover {
   border: 1px solid white;
   width: 300px;
   height: 400px;
+  font-size: 20px;
+  align-items: left;
 }

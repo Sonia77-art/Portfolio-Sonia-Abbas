@@ -1,10 +1,12 @@
-import Picture from "../soniapicture.jpg";
+import Picture from "../Picture.jpg";
 import "../App.css";
 
 export default function Image() {
   return (
-    <div className="Pic">
-      <img src={Picture} alt="soniapicture" width="20%" height="20%" />
-    </div>
+    <>
+      <div className="Pic">
+        <img src={Picture} alt="img" width="40%" height="40%" />
+      </div>
+    </>
   );
 }

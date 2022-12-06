@@ -12,7 +12,7 @@ export default function Buttons() {
 
       <button>
         {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-        <a href="contacts" className="btn-2">
+        <a href="#Nav" className="btn-2">
           Let's Talk More
         </a>
       </button>
