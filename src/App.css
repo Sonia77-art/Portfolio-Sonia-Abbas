@@ -47,11 +47,12 @@ a:hover {
   padding: 0.75rem 1.2rem;
   border-radius: 1.4rem;
   cursor: pointer;
-  border: 1px solid;
+  border: 2px solid;
   transition: all 400ms ease;
-  background-color: #7fe9de;
+  background-color: #adb681;
   font-size: 12px;
   align-content: center;
+  font-family: "Courier New", Courier, monospace;
   gap: 2rem;
 }
 
@@ -59,7 +60,6 @@ a:hover {
   background-color: rgb(184, 111, 68);
   color: rgb(234, 183, 183);
   border-color: transparent;
-  gap: 1px;
 }
 
 .btn-2 {
@@ -74,6 +74,7 @@ a:hover {
   background-color: #8989d8;
   font-size: 12px;
   align-items: center;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .Buttons {
