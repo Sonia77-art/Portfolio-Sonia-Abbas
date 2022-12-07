@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+deployment link: https://poetic-pasca-d03f1f.netlify.app
 
 ## Available Scripts
 
