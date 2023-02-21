@@ -11,7 +11,7 @@ export default function Projects() {
         <li>HTML5</li>
         <li>CSS3</li>
         <li>JavaScript</li>
-        <li>React</li>
+        <li>React.Js</li>
         <li>Node.Js</li>
         <li>Postgress, SQL</li>
         <li>Git, GitHub Actions</li>

@@ -13,7 +13,7 @@ export default function Education() {
           Graduated as Full Stack Web Developer
         </li>
         <li>
-          <h3>University of Eastern Finalnd</h3>
+          <h3>University of Eastern Finland</h3>
           Graduated As Masters of Research Chemist
         </li>
       </ul>
